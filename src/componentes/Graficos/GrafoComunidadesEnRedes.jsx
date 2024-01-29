@@ -267,18 +267,18 @@ const opciones = fechas
           </Select.Option>
         </Select>
       )}
-         <Flex gap="small" wrap="wrap">
+         {/* <Flex gap="small" wrap="wrap">
          <Tooltip title="Click para descargar el grafo">
          <Button type="primary" shape="circle" icon={<DownloadOutlined />} className='download' onClick={descargarImagen} />
            
      
          </Tooltip>
-         </Flex>
+         </Flex> */}
          </div>              
     <div>
     <div className='carta video-texto2 scrollable-card'> 
     <Tooltip title="Click para ver el grafo">
-    <a href={`https://qsngrafos.vercel.app/comunidades/maduro/grafo_comunidades-${filtroFecha}.html`} target="_blank">
+    <a href={`https://qsngrafos.vercel.app/comunidades/11307262/grafo_comunidades-${filtroFecha}.html`} target="_blank">
     <div className='video-explicativo cartaGrafo'>
       <img src={imagen} className='imagen-grafo' />
     </div>
